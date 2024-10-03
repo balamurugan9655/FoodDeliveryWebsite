@@ -9,10 +9,11 @@
 </head>
 <body>
     <!-- header -->
-     <header>
+    <header>
+        <a href="#" onclick="document.getElementById('slide-nav').style.display='block' "><i><img src="image/navbar-org-icon.png" alt="image" class="navbar-icon"></i></a>
         <h1 class="logo-tittle"><span>F</span>ood <span>D</span>elivery</h1>
         <nav class="navbar">
-            <a href="index.html">Home</a>
+            <a href="home.html">Home</a>
             <a href="#food-menu">Food Menu</a>
             <a href="#order-step">How To Order</a>
             <a href="#about">About</a>
@@ -24,6 +25,15 @@
             <a href="#" class="btn" onclick="document.getElementById('login').style.display='block' "><img src="image/navbar icon/login-icon.png" alt="image" class="icon btn-icon">Log In</a>
         </div>
      </header>
+     <!-- slide navbar -->
+     <nav class="slide-nav" id="slide-nav">
+        <i class="nav-close" style="float: right;" onclick="document.getElementById('slide-nav').style.display='none' "><img src="image/close.png" alt="image" class="nav-close"></i>
+        <a href="index.html">Home</a>
+        <a href="#food-menu">Food Menu</a>
+        <a href="#order-step">How To Order</a>
+        <a href="#about">About</a>
+        <a href="addrestaurant.html">Join Restaurant</a>
+    </nav>
      <!-- login page -->
       <form action="#" id="login" class="login">
         <h2>Log In</h2>
