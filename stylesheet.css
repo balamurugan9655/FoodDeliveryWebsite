@@ -725,3 +725,108 @@ footer>table td,a {
         display: none;
     }
 }
+@media screen and (max-width:375px) {
+    header {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .navbar-icon {
+        display: inline-block;
+    }
+    .logo-tittle {
+        font-size: x-large;
+    }
+    .navbar {
+        display: none;
+    }
+    .btn {
+        text-align: center;
+        padding: 5px 10px;
+    }
+    .login {
+        left: auto;
+        right: 12%;
+        backdrop-filter: blur(20px);
+        background-color: #ff9d003f;
+        color: black;
+    }
+    .icon {
+        display: none;
+    }
+    .home-page1 {
+        background-position: right;
+        padding: 80px 20px;
+    }
+    .span-home {
+        background: linear-gradient(white,white);
+        text-shadow: 0px 0px 10px orangered;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    .home-page2 {
+        padding: 1%;
+    }
+    .home-page2>p {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .page2-box {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .bottom-contant strong {
+        text-decoration: none;
+        color: gray;
+    }
+    .bottom-contant strong:hover {
+        cursor: pointer;
+        color: #ff9c00;
+    }
+    .home-page3 {
+        padding: 10px;
+    }
+    .home-page3>p {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .page3-steps {
+        padding: 0px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .step {
+        width: 70%;
+        margin: 0px 5px;
+    }
+    .home-page4 {
+        padding: 5px 10px 10px;
+        height: fit-content;
+    }
+    .page4-image {
+        display: none;
+    }
+    .page4-contant {
+        width: 100%;
+        float: none;
+    }
+    .page4-contant h4 {
+        text-align: center;
+    }
+    .home-page5 {
+        padding: 12% 20% ;
+    }
+    footer>table {
+        border-spacing: 5px 5px;
+        padding: 10px;
+    }
+    .nt-view {
+        display: none;
+    }
+}
