@@ -46,9 +46,9 @@ nav a {
     background-color: #ff9d0094;
     backdrop-filter: blur(20px);
     animation-name: move;
-    animation-duration: 4s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
     display: none;
+    z-index: 1;
 }
 @keyframes move {
     from{
@@ -440,6 +440,9 @@ footer>table td,a {
     .feedback {
         padding: 1% 2%;
     }
+    .req>table {
+        left: 15%;
+    }
 }
 
 @media screen and (min-width:768px)and (max-width:1024px) {
@@ -523,6 +526,13 @@ footer>table td,a {
     .login {
         left: auto;
         right: 2%;
+    }
+    .r-page1 h1 {
+        width: 50%;
+        left: 25%;
+    }
+    .req>table {
+        left: 5%;
     }
 }
 @media screen and (min-width:425px)and (max-width:768px) {
@@ -622,6 +632,23 @@ footer>table td,a {
     .nt-view {
         display: none;
     }
+    .r-page1 h1 {
+        width: 85%;
+        left: 5%;
+    }
+    .r-page2 {
+        padding: 15px;
+    }
+    .req {
+        padding: 15px;
+    }
+    .req>table {
+        left: 2%;
+    }
+    .req>table td {
+        border-spacing: 25px;
+        padding: 5px 10px;
+    }
 }
 @media screen and (min-width:375px)and (max-width:425px) {
     header {
@@ -720,6 +747,30 @@ footer>table td,a {
     footer>table {
         border-spacing: 5px 5px;
         padding: 10px;
+    }
+    .nt-view {
+        display: none;
+    }
+    .r-page1 {
+        padding: 100px 10px;
+    }
+    .r-page1 h1 {
+        width: 90%;
+        left: 2%;
+    }
+    .r-page2 {
+        padding: 15px;
+    }
+    .req {
+        padding: 0px;
+    }
+    .req>table {
+        left: 0px;
+        padding: 2px;
+    }
+    .req>table td {
+        border-spacing: 25px;
+        padding: 5px 10px;
     }
     .nt-view {
         display: none;
@@ -828,5 +879,26 @@ footer>table td,a {
     }
     .nt-view {
         display: none;
+    }
+    .r-page1 {
+        padding: 100px 2px;
+    }
+    .r-page1 h1 {
+        width: 90%;
+        left: 2%;
+    }
+    .r-page2 {
+        padding: 15px;
+    }
+    .req {
+        padding: 0px;
+    }
+    .req>table {
+        left: 0px;
+        padding: 2px;
+    }
+    .req>table td {
+        border-spacing: 25px;
+        padding: 5px 10px;
     }
 }
