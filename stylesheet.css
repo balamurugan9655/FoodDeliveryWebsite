@@ -397,6 +397,7 @@ footer>table td,a {
     text-align: center;
     display: none;
     border-radius: 50px;
+    z-index: 1;
 }
 .close-icon {
     width: 8%;
