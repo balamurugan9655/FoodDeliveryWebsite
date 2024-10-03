@@ -525,7 +525,7 @@ footer>table td,a {
         right: 2%;
     }
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:425px)and (max-width:768px) {
     header {
         width: 100%;
         justify-content: space-around;
@@ -593,6 +593,7 @@ footer>table td,a {
     .page3-steps {
         padding: 0px;
         justify-content: center;
+        width: 100%;
     }
     .step {
         width: 35%;
