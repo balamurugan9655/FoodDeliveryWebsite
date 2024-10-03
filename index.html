@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="image/food-delivery.png">
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <a href="#" onclick="document.getElementById('slide-nav').style.display='block' "><i><img src="image/navbar-org-icon.png" alt="image" class="navbar-icon"></i></a>
+        <h1 class="logo-tittle"><span>F</span>ood <span>D</span>elivery</h1>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="#food-menu">Food Menu</a>
+            <a href="#order-step">How To Order</a>
+            <a href="#about">About</a>
+            <a href="addrestaurant.html">Join Restaurant</a>
+        </nav>
+        <div class="button">
+            <a href="#"><img src="image/navbar icon/search-icon.png" alt="image" class="icon btn1"></a>
+            <a href="#"><img src="image/navbar icon/add-to-bue.png" alt="image" class="icon btn1"></a>
+            <a href="#" class="btn" onclick="document.getElementById('login').style.display='block' "><img src="image/navbar icon/login-icon.png" alt="image" class="icon btn-icon">Log In</a>
+        </div>
+     </header>
+     <!-- slide navbar -->
+     <nav class="slide-nav" id="slide-nav">
+        <i class="nav-close" style="float: right;" onclick="document.getElementById('slide-nav').style.display='none' "><img src="image/close.png" alt="image" class="nav-close"></i>
+        <a href="index.html">Home</a>
+        <a href="#food-menu">Food Menu</a>
+        <a href="#order-step">How To Order</a>
+        <a href="#about">About</a>
+        <a href="addrestaurant.html">Join Restaurant</a>
+    </nav>
+     <!-- login page -->
+      <form action="#" id="login" class="login">
+        <h2>Log In</h2>
+        <i onclick="document.getElementById('login').style.display='none' " style="cursor: pointer;"><img src="image/close.png" alt="image" class="close-icon"></i>
+        <br><br>
+        <label for="">Username : </label>
+        <input type="email">
+        <br><br>
+        <label for="">Password : </label>
+        <input type="password">
+        <br><br><br>
+        <button class="btn-login"> Sign In </button>
+        <br><br>
+      </form>
+     <!-- home page 1 -->
+      <div class="home-page1">
+        <h1 style="font-size: xx-large;">Be The Fastest In Delivery Your <span class="span-home">Food</span></h1>
+        <br>
+        <p style="font-size: x-large;font-weight: bold;">Discover the best food & drinks</p>
+        <br><br>
+        <button class="btn-style"> Get Started </button>
+      </div>
+    <!-- home page 2 -->
+     <div class="home-page2" id="food-menu">
+        <h4>Our Menu</h4>
+        <h2>Popular Menu</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente facere eius temporibus aliquid nemo eos sit blanditiis, reprehenderit quos fugiat reiciendis itaque non, omnis facilis tempora. Sunt nobis nisi consequatur!</p>
+        <div class="page2-box">
+            <div class="box">
+                <img src="image/food image/noodles.png" alt="image" class="box-img">
+                <div class="box-contant">
+                    <h2>Noodles</h2>
+                    <p>Lorem, ipsum.</p>
+                    <br>
+                    <p class="bottom-contant"><b  class="price">Price :</b> ₹100 <strong id="like1" class="like" onclick="document.getElementById('like1').style.color='#ff9c00' ">❤︎</strong></p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/food image/piceza.png" alt="image" class="box-img">
+                <div class="box-contant">
+                    <h2>Pizza</h2>
+                    <p>Lorem, ipsum.</p>
+                    <br>
+                    <p class="bottom-contant"><b  class="price">Price :</b> ₹120 <strong id="like2" class="like" onclick="document.getElementById('like2').style.color='#ff9c00' ">❤︎</strong></p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/food image/burger.png" alt="image" class="box-img">
+                <div class="box-contant">
+                    <h2>Burger</h2>
+                    <p>Lorem, ipsum.</p>
+                    <br>
+                    <p class="bottom-contant"><b  class="price">Price :</b> ₹80 <strong id="like3" class="like" onclick="document.getElementById('like3').style.color='#ff9c00' ">❤︎</strong></p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="image/food image/cheken-briyani.png" alt="image" class="box-img">
+                <div class="box-contant">
+                    <h2>Biryani</h2>
+                    <p>Lorem, ipsum.</p>
+                    <br>
+                    <p class="bottom-contant"><b  class="price">Price :</b> ₹150 <strong id="like4" class="like" onclick="document.getElementById('like4').style.color='#ff9c00' ">❤︎</strong></p>
+                </div>
+            </div>
+        </div>
+        <button class="btn-menu">More Menu</button>
+     </div>
+    <!-- home page 3 -->
+     <div class="home-page3" id="order-step">
+        <h4>How It Works</h4>
+        <h2>What We Serve</h2>
+        <p>Product Quality Is Our Priority, And Always Guarantees Freshness And Safety Until It Is In Your Hands</p>
+        <div class="page3-steps">
+            <div class="step">
+                <img src="image/order icon.png" alt="image" class="step-img">
+                <div class="step-contant">
+                    <h2>Easy To Order</h2>
+                    <br>
+                    <p>You only order through the app</p>
+                </div>
+            </div>
+            <div class="step">
+                <img src="image/delivery1.png" alt="image" class="step-img">
+                <div class="step-contant">
+                    <h2>Fastest Delivery</h2>
+                    <br>
+                    <p>Delivery will be on time</p>
+                </div>
+            </div>
+            <div class="step">
+                <img src="image/buy.png" alt="image" class="step-img">
+                <div class="step-contant">
+                    <h2>Best Quality</h2>
+                    <br>
+                    <p>The best quality of food for you</p>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- home page 4 -->
+     <div class="home-page4" id="about">
+        <div class="page4-image">
+            <img src="image/food-image-1.jpg" alt="image" class="f-image1" style="width: 100%;">
+            <br>
+            <img src="image/food-image.jpg" alt="image" class="f-image2" style="width: 40%;">
+            <img src="image/food -image 2.jpg" alt="image" class="f-image3" style="width: 59%;">
+        </div>
+        <div class="page4-contant">
+            <h4>About</h4>
+            <h2>What Our Customers Say About Us</h2>
+            <div class="feedback">
+                <h3><img src="image/user image.png" alt="image" style="width: 5%;height: 5%;vertical-align:baseline;"> User 1</h3>
+                <p> " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, blanditiis. Iure rem consequuntur, exercitationem porro dignissimos quas quia itaque corporis. " </p>
+                <h2>&#9733 &#9733 &#9733 &#9733 &#9733</h2>
+            </div>
+            <br>
+            <div class="feedback">
+                <h3><img src="image/user image.png" alt="image" style="width: 5%;height: 5%;vertical-align:baseline;"> User 2</h3>
+                <p> " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, blanditiis. Iure rem consequuntur, exercitationem porro dignissimos quas quia itaque corporis. " </p>
+                <h2>&#9733 &#9733 &#9733 &#9733 &#9733</h2>
+            </div>
+            <br>
+            <div class="feedback">
+                <h3><img src="image/user image.png" alt="image" style="width: 5%;height: 5%;vertical-align:baseline;"> User 3</h3>
+                <p> " Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem, blanditiis. Iure rem consequuntur, exercitationem porro dignissimos quas quia itaque corporis. " </p>
+                <h2>&#9733 &#9733 &#9733 &#9733 &#9733</h2>
+            </div>
+        </div>
+     </div>
+    <!-- home page 5 -->
+     <div class="home-page5">
+        <h1>Join Our Membership And Get Discount Up To <span> 50% </span></h1>
+        <button class="signup">Sign Up</button>
+     </div>
+     <br>
+    <!-- footer page -->
+     <footer>
+        <table>
+            <tr>
+                <th>Food Delivery</th>
+                <th>Company</th>
+                <th>Policy</th>
+                <th>Get In Touch</th>
+            </tr>
+            <tr>
+                <td rowspan="2" style="width: 30%;"> West Street, Pavithram, Namakkal, Tamilnadu-637021.</td>
+                <td><a href="#">About Us</a></td>
+                <td><a href="#">FAQ</a></td>
+                <td><a href="#">+91 98765 43210</a></td>
+            </tr>
+            <tr>
+                <td><a href="#">Career</a></td>
+                <td><a href="#">Privacy</a></td>
+                <td><a href="#">example@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td style="cursor: pointer;">
+                    <img src="image/footer icon/fackbook.png" alt="image" class="icon-1">
+                    <img src="image/footer icon/instalgram.png" alt="image" class="icon-1">
+                    <img src="image/footer icon/twiter.png" alt="image" class="icon-1">
+                    <img src="image/footer icon/whatsapp.png" alt="image" class="icon-1">
+                    <img src="image/footer icon/youtube.png" alt="image" class="icon-1">
+                </td>
+                <td><a href="#">How It Works</a></td>
+                <td><a href="#">Help & Support</a></td>
+            </tr>
+        </table>
+        <hr>
+        <div class="copy">
+            <h3>&copy;2024 copyright by balamurugan</h3>
+        </div>
+     </footer>
+</body>
+</html>
