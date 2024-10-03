@@ -575,6 +575,14 @@ footer>table td,a {
         width: 45%;
         margin-bottom: 30px;
     }
+    .bottom-contant strong {
+        text-decoration: none;
+        color: gray;
+    }
+    .bottom-contant strong:hover {
+        cursor: pointer;
+        color: #ff9c00;
+    }
     .home-page3 {
         padding: 10px;
     }
@@ -609,5 +617,8 @@ footer>table td,a {
     }
     footer>table {
         border-spacing: 5px 5px;
+    }
+    .nt-view {
+        display: none;
     }
 }
